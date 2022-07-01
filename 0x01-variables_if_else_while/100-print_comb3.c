@@ -7,27 +7,34 @@
  */
 int main(void)
 {
-	int c = '0';
-	int d = '0';
+	int f = '0';
+	int s = '0';
 
-	while (c <= '9')
+	while (f <= '9')
 	{
-		d = '0';
-		while (d <= '9')
+		s = '0';
+		while (s <= '9')
 		{
-			putchar(c);
-			putchar(d);
-			if (d == '9' && c == '9')
+			if (s == f)
+			{
+			}
+			else if (f > s)
 			{
 			}
 			else
 			{
+				putchar(f);
+				putchar(s);
+				if (s == '9' && f == '8')
+				{
+					break;
+				}
 				putchar(',');
 				putchar(' ');
 			}
-			d++;
+			s++;
 		}
-		c++;
+		f++;
 	}
 	putchar('\n');
 	return (0);
