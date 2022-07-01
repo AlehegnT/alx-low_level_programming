@@ -15,4 +15,5 @@ int main(void)
 		b++;
 	}
 	printf("\n");
+	return (0);
 }
