@@ -15,9 +15,9 @@ int main(void)
 		d = '0';
 		while (d <= '9')
 		{
-			putchar(f);
-			putchar(s);
-			if (s == '9' && f == '9')
+			putchar(c);
+			putchar(d);
+			if (d == '9' && c == '9')
 			{
 			}
 			else
@@ -25,9 +25,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			s++;
+			d++;
 		}
-		f++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
