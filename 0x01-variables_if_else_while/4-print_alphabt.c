@@ -3,7 +3,7 @@
 /**
  * main - Print lower case alpahabets with out q and e
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
