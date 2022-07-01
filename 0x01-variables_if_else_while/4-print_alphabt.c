@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Print lower case alpahabets with out q and e
+ * main - Print alphabet w/o two letters
  *
  * Return: 0
  */
 int main(void)
 {
-	char o = 'b';
+	char z = 'a';
 
-	while (o <= 's')
+	while (z <= 'z')
 	{
-		if (o != 'q' && o != 'e')
+		if (z != 'q' && z != 'e')
 		{
-			putchar(o);
+			putchar(z);
 		}
-		o++;
+		z++;
 	}
 	putchar('\n');
 	return (0);
