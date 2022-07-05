@@ -5,6 +5,14 @@
  *
  * Return: 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int  = 
+	int l = 'a';
+
+	while (l <= 'z')
+	{
+		_putchar(l);
+		l++;
+	}
+	_putchar('\n');
+}
