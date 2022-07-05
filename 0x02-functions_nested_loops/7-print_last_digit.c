@@ -2,14 +2,22 @@
 
 /**
  * print_last_digit - print last digit of an integer
- * @n: the integer to print the last digit of
+ * @d: the integer to print the last digit of
  *
  * Return: Value of last digit
  */
-int print_last_digit(int n)
+int print_last_digit(int d)
 {
-	if ((n % 10) < 0)
-		n *= -1;
-	_putchar((n % 10) + '0');
-	return (n % 10);
+int e;
+e = (d % 10);
+if (e < 0)
+{
+e = e * -1;
+_putchar((char)(e + 48));
+}
+else
+{
+_putchar((char)(e + 48));
+}
+return (e);
 }
