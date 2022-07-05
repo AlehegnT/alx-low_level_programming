@@ -1,8 +1,8 @@
 /**
- * _abs(int n) - absolute value of an integer
- * @n: the integer
+ * _abs - Convert to absolute value of an integer
+ * @n: the integer to affect
  *
- * Return:
+ * Return: Return absolute value of integer
  */
 int _abs(int n)
 {
