@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 /**
- * while (i < 10)
- * 	{
- * 	putchar(i);
- * 	}
+ * main - while (i < 10) and putchar(i)
  *
  * Return: 0
  */
