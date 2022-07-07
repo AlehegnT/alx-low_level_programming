@@ -3,7 +3,7 @@
 /**
  * Print 1-100, replace multiples
  *
- * Return: 0
+ * Return: Nothing.
  */
 int main(void)
 {
