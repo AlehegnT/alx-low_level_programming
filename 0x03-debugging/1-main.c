@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * while (i < 10)
+ * main - while (i < 10)
  * 	{
  * 	putchar(i);
  * 	}
+ * Return: 0
  */
 
 int main(void)
@@ -14,11 +15,6 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-
-       	while (i < 10)
-	{
-		putchar(i);
-	}
 
 	printf("Infinite loop avoided! \\o/\n");
 
