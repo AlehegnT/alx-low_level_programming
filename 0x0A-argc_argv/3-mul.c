@@ -2,22 +2,21 @@
 #include <stdlib.h>
 
 /*
- * main - Multiply 2 numbers and print result
- * @argc: Number of arguments
- * @argv: Array of arguments recieved
+ * main - print the result of the multiplication, followed by a new line
+ * @argc: int
+ * @argv: list
  *
- * Return: 0 on success, 1 if not given two arguments
+ * Return: 0 
  */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-	if (argc == 3)
-	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-		return (0);
-	}
-	else
+	(void)argc;
+	if (argc != 3)
 	{
 		printf("Error\n");
-		return (1);
+
+		 return (1);
 	}
+	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
