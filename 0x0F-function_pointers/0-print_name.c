@@ -1,5 +1,5 @@
 /**
- * print_name - Print name
+ * print_name - Print the given name
  * @name: Name to print
  * @f: Pointer to void function, taking a char * as arg
  */
